@@ -1,0 +1,17 @@
+{
+  "name": "repro-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-ts": "cd ./test && ts-node ../../webpack-cli/bin/webpack.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "ts-node": "^4.1.0"
+  }
+}
